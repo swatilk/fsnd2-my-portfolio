@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset = "utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Swati's Portfolio Page</title>
+
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet'>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Container to hold the entire page content -->
+    <div class="container">
+        <!-- Header to hold the logo and name -->
+        <header class="row justify-content-center">
+            <!-- Half the page to hold the logo -->
+            <div class="col-6 col-md-4">
+                <img src="img/Udacity_logo.png" alt="Udacity Logo" class="img-fluid logo"/>
+            </div>
+            <!-- Half the page to hold the name -->
+            <div class="col-6 col-md-4 offset-md-4 text-right">
+                <h1 class="text-uppercase portfolio-name">Swati Kamtar</h1>
+                <span class="text-uppercase">Front End Web Developer</span>
+            </div>
+        </header>
+
+        <hr>
+        <!-- Section to display the hero image of the page -->
+        <main class="row justify-content-center">
+            <article class="col-12 col-md-12">
+                <img src="img/death_valley.JPG" alt="Picture of Death Valley National Park" class="img-fluid main-image"/>
+            </article>
+        </main>
+
+        <h2 class="sub-heading">Featured Work</h2>
+
+<!--    Section to display portfolio images, names and links.
+        Show them side by side on larger device and stack them on smaller ones
+ -->
+        <article class="row justify-content-center">
+            <!-- First project image, name and link -->
+            <section class="col-lg-4 col-md-4 col-sm-12 col-12 justify-content=center project-image">
+                <img src="img/neighborhood-map.png" alt="Neighborhood Map Project Screenshot" class="img-fluid"/>
+                <p class="project-title">
+                    <a href="https://github.com/swatilk/neighborhood-map" target="blank">Neighborhood Map</a>
+                </p>
+            </section>
+            <!-- Second project image, name and link -->
+            <section class="col-lg-4 col-md-4 col-sm-12 col-12 justify-content=center project-image">
+                <img src="img/classic-frogger-arcade-game.png" alt="Arcade Game Project Screenshot" class="img-fluid"/>
+                <p class="project-title">
+                    <a href="https://github.com/swatilk/classic-frogger-arcade-game" target="blank">Classic Frogger Game</a>
+                </p>
+            </section>
+            <!-- Third project image, name and link -->
+            <section class="col-lg-4 col-md-4 col-sm-12 col-12 justify-content=center">
+                <img src="img/recipe-travel-blog.png" alt="Recipe and travel blog project screenshot" class="img-fluid"/>
+                <p class="project-title">
+                    <a href="https://github.com/swatilk/static-website-design" target="blank">Recipe/Travel Blog</a>
+                </p>
+            </section>
+        </article>
+    </div>
+
+    <!-- jQuery, Tether plugin and Bootstrap JS -->
+    <script src="js/jquery-3.1.1.slim.min.js"></script>
+    <script src="js/tether.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

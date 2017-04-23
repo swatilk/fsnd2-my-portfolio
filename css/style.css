@@ -1,0 +1,155 @@
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+}
+
+.container {
+    justify-content: space-between;
+}
+
+header {
+    margin-top: 2em;
+    align-items: center;
+}
+
+.logo {
+    width: 15em;
+    text-align: left;
+    max-width: 100%;
+    height: auto;
+}
+
+.portfolio-name {
+    font-size: 3em;
+    font-weight: 100;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+
+main {
+    margin-top: 2em;
+}
+
+.main-image {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+
+.sub-heading {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 2.5em;
+    font-weight: 100;
+}
+
+.project-image {
+    border-right: 0.1px solid black;
+}
+
+.project-title {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 100;
+    margin-top: 0.5em;
+}
+
+ /*Extra small devices (portrait phones, less than 576px)*/
+ /*No media query since this is the default in Bootstrap*/
+@media (max-width: 575px) {
+    .container {
+        width: 100%;
+    }
+
+    .portfolio-name {
+        font-size: 2em;
+        font-weight: 100;
+    }
+
+    .project-image {
+        border: none;
+    }
+
+    .project-title {
+        margin-top: 0.5em;
+    }
+
+    article {
+        text-align: center;
+    }
+
+}
+
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) {
+    .container {
+        width: 100%;
+    }
+
+    .portfolio-name {
+        font-size: 3em;
+        font-weight: 100;
+    }
+
+    .project-image {
+        border: none;
+    }
+
+    .project-title {
+        margin-top: 0.5em;
+    }
+
+    article {
+        text-align: center;
+    }
+}
+
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        width: 100%;
+    }
+
+    .portfolio-name {
+        font-size: 3em;
+        font-weight: 100;
+    }
+
+    .project-image {
+        border: none;
+    }
+
+    .project-title {
+        margin-top: 0.5em;
+    }
+
+    article {
+        text-align: center;
+    }
+}
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .portfolio-name {
+        font-size: 3em;
+        font-weight: 100;
+    }
+
+    article {
+        text-align: center;
+    }
+}
+
+ /*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .logo {
+        max-width: 100%;
+        height: auto;
+    }
+}
